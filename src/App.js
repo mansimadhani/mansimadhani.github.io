@@ -224,7 +224,7 @@ export default function Portfolio() {
       role: "Software Engineering Intern",
       company: "Google",
       period: "May 2026 - August 2026",
-      description: "Built a full-stack changelog system for Google's Cross Apps Analytics (XAA) Data Catalog using Java, Protobuf, and Angular to automate tracking historical metric definition changes across Google Workspace analytics. Authored a design document, collaborated with stakeholders to define changelog data and UI requirements, and implemented a daily Borg batch pipeline to compute and store metric definition diffs.",
+      description: "Designed and implemented an end-to-end full-stack auditing system for Google Workspace metrics, replacing manual code inspection with automated change detection to reduce ambiguity in metric evolution. Collaborated with cross functional stakeholders to define data and UI requirements, using Google AI Studio for rapid prototyping. Designed Protobuf schemas and built Java diffing binary to detect configuration changes and track upstream dependencies; automated execution into daily batch jobs. Materialized change logs into backend databases, built Angular UI views, and authored an agent skill to enable user access across multiple interfaces.",
       bgColor: "#f5e6e8",
       borderColor: "#c98686",
       icon: "CodeSquare"
@@ -747,7 +747,7 @@ export default function Portfolio() {
               <p style={styles.subtitle} className="scroll-animate">Exploring the intersection of tech, business, and design.</p>
               
               <p style={styles.paragraph} className="scroll-animate">
-                I'm a junior at UT Austin, pursuing a B.S. in Computer Science with a minor in Business Administration. 
+                I'm a senior at UT Austin, pursuing a B.S. in Computer Science with a minor in Business Administration. 
                 My passions lie in software engineering, UI/UX design, and any space where creativity meets technical problem-solving. 
                 I aim to leverage the power of technology to build real-world solutions that make a meaningful impact on communities.
               </p>
